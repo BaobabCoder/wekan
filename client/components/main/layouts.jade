@@ -32,7 +32,7 @@ template(name="defaultLayout")
   if (Modal.isOpen)
     #modal
       .overlay
-      .modal-content
+      .modal-content(style="#{Modal.getStyle}")
         a.modal-close-btn.js-close-modal
           i.fa.fa-times-thin
         +Template.dynamic(template=Modal.getHeaderName)

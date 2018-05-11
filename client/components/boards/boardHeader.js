@@ -114,6 +114,9 @@ BlazeComponent.extendComponent({
       'click .js-log-in'() {
         FlowRouter.go('atSignIn');
       },
+      'click .js-open-calendar-view'() {
+        Modal.open('calendar', {style: 'position:absolute;top:50px;left:5px;right:5px;bottom:10px;width:auto;'});
+      },
     }];
   },
 }).register('boardHeaderBar');

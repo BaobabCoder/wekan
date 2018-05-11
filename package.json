@@ -27,7 +27,10 @@
     "bcrypt": "^1.0.3",
     "bson-ext": "^1.0.5",
     "es6-promise": "^4.1.0",
+    "fullcalendar": "^3.8.2",
     "meteor-node-stubs": "^0.2.6",
+    "moment": "^2.22.1",
+    "moment-timezone": "^0.5.16",
     "os": "^0.1.1",
     "xss": "^0.3.3"
   }
